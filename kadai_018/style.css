@@ -9,8 +9,7 @@
 .top-child{
     width: 20%;
     background-color:#ffd9df;
-    display: inline-block;
-    
+    display: inline-block;  
 }
 #middle{
     width:800px;
@@ -18,29 +17,24 @@
     padding: 20px 0;
     margin: 20px auto;
     background-color:#ffd9df ;
+    position: relative;
+}
+#middle div{
+    width:200px;
+    height:200px;
+    background-color:#87ceeb ;
+    position: absolute;
 }
 #middle-child01{
-    width:200px;
-    min-height: 200px;
-    background-color:#87ceeb ;
-    position: relative;
     top:100px ;
     left:100px ;
 }
 #middle-child02{
-    width:200px;
-    min-height: 200px;
-    background-color:#87ceeb ;
-    position:relative;
-    top:100px ;
+    top:300px ;
     left:300px ;
 }
 #middle-child03{
-    width:200px;
-    min-height: 200px;
-    background-color:#87ceeb ;
-    position: relative;
-    top:100px ;
+    top:500px ;
     left:500px ;
 }
 #bottom{
@@ -49,22 +43,16 @@
     margin: 0 auto;
     background-color:#87ceeb ;
 }
-#bottom-child01{
+#bottom div{
     width:400px;
     height: 100px;
     background-color:#e5dcf0;
 }
 #bottom-child02{
-    width:400px;
-    min-height: 100px;
-    background-color:#e5dcf0;
     position: relative;
     left:200px ;
 }
 #bottom-child03{
-    width:400px;
-    min-height: 100px;
-    background-color:#e5dcf0;
     position: relative;
     left:400px ;
 }
